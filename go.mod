@@ -1,4 +1,4 @@
-module github.com/sardinasystems/fleeting-plugin-openstack
+module github.com/tobiashuste/fleeting-plugin-openstack
 
 go 1.22
 

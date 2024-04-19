@@ -62,6 +62,8 @@ func (opts ExtCreateOpts) ToServerCreateMap() (map[string]interface{}, error) {
 	delete(b, "security_groups")
 
 	if opts.SchedulerHints != nil {
+		fmt.Print("SchedulerHints")
+		fmt.Print(opts.SchedulerHints)
 		hints := b["scheduler_hints"]
 		delete(b, "scheduler_hints")
 		if hints != nil {
